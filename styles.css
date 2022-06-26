@@ -1,2 +1,6 @@
 /* font-family: 'Poppins', sans-serif;
-font-family: 'Red Hat Display', sans-serif; /*
+font-family: 'Red Hat Display', sans-serif; */
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
