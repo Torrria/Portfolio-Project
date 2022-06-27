@@ -1,5 +1,10 @@
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Red Hat Display', sans-serif; */
+.root {
+  --heading-font-family: "Red Hat display", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 .hero {
   background: #f9f7fe;
   text-align: center;
@@ -7,18 +12,19 @@ font-family: 'Red Hat Display', sans-serif; */
 }
 
 .hero p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 36px;
   font-weight: lighter;
   margin: 0;
 }
 
 .hero h1 {
-  font-family: "Red Hat display", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
 .hero h2 {
+  font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
