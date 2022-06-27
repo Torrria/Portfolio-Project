@@ -1,4 +1,4 @@
-.root {
+:root {
   --heading-font-family: "Red Hat display", sans-serif;
   --default-font-family: "Poppins", sans-serif;
   --branding-color: #6c63ff;
@@ -16,6 +16,8 @@ h4,
 h5,
 h6 {
   font-family: var(--default-font-family);
+  font-weight: bold;
+  color: black;
 }
 
 h1 {
@@ -41,24 +43,19 @@ p {
 
 .hero p {
   font-size: 36px;
-  font-weight: lighter;
-  line-height: 1;
-  margin: 0;
-}
-
-.hero h1 {
-  font-family: var(--heading-font-family);
   font-weight: bold;
+  margin: 0;
+  color: #272142;
 }
 
 .hero h2 {
+  font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
 }
 .btn-branding {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: white;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -77,7 +74,7 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -85,6 +82,7 @@ p {
 
   h1 {
     font-size: 44px;
+    line-height: 2;
   }
 
   h2 {
